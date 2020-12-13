@@ -1,0 +1,218 @@
+.samrat_logo{
+    
+    width: 220px;
+    height: 60px;
+    object-fit: cover;
+    margin-left: 50px;
+    
+}
+.box{
+    transition: 1s;
+    left: 0;
+}
+.box:hover{
+    background-position: 100% center;
+}
+.header{
+    position: fixed !important;
+    top: 0px !important;
+    width: 100vw;
+    z-index: 50;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.fontxl{
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+}
+.btn{
+    
+    font-size: 12px !important;
+    padding: 8px 20px !important;
+    
+}
+.blu{
+    border: 1px solid blue !important;
+    
+}
+.blu:hover{
+    background-color: blue;  
+    color: white !important;
+}
+.green{
+    border: 1px solid green !important;
+    
+}
+.green:hover{
+    background-color: green;  
+    color: white !important;
+}
+.purple{
+    border: 1px solid purple !important;
+}
+.purple:hover{ 
+   background-color: purple;
+   color: white !important;
+}
+.red{
+    border: 1px solid red !important;
+}
+.red:hover{
+    background-color: red;
+    color: white !important;
+}
+
+.bluexl{
+    text-decoration: none;
+    outline: none !important;
+}
+.bluexl:hover{
+    border-bottom: 2px solid blue !important
+}
+.greenxl{
+    text-decoration: none;
+}
+.greenxl:hover{
+    border-bottom: 2px solid green !important
+}
+.purplexl{
+    text-decoration: none;
+}
+.purplexl:hover{
+    border-bottom: 2px solid purple !important
+}
+.redxl{
+    text-decoration: none;
+}
+.redxl:hover{
+    border-bottom: 2px solid red !important
+}
+.brownxl{
+    text-decoration: none;
+}
+.brownxl:hover{
+    border-bottom: 2px solid brown !important
+}
+.yellowxl{
+    text-decoration: none;
+}
+.yellowxl:hover{
+    border-bottom: 2px solid yellow !important
+}
+.greyxl{
+    background-color: rgb(240, 236, 236);
+}
+.savingbtn{
+    font-size: 13px !important;
+    padding: 0px 30px;
+    height: 37px;
+    border: 2px solid blue !important;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.savingbtn:hover{
+    background-color: blue; 
+    color: white !important;  
+}
+.livevaluebtn{
+    font-size: 13px !important;
+    padding: 0px 30px;
+    height: 40px;
+    border: 2px solid rgb(219, 214, 214) !important;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+.livevaluebtn:hover{
+    background-color: rgb(219, 214, 214); 
+    color: black !important;  
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color:white;
+    width: 350px;
+    padding: 20px 0px 20px 30px !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    line-height: 35px;
+    font-size: 14px !important;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .savingbtn {background-color: #3e8e41;}
+
+.emailinp{
+    width: 340px;
+    height: 40px;
+    
+    border:1px solid red;
+    outline: none;
+    border-right: none;
+    text-align: center;
+}
+.emailinp:hover{
+    border: 1px solid green;
+    border-right: none !important;
+}
+.signbtn{
+    background: transparent;
+    height: 40px;
+    border: 1px solid blue;
+    margin-left: 0.2px;
+    width: 90px;
+
+}
+.signbtn:hover{
+    background-color: blue;
+    color: white;
+}
+.btn2{
+    background: transparent;
+    border: 1px solid purple;
+    width: 50%;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+
+.animcol{
+    text-align: center;
+    border-bottom: 1px solid green;
+    
+}
+.fontxl1{
+    font: bold;
+    font-size: 17px;
+    display: block;
+    font-weight: 600;
+}
+.fontxl2{
+    
+    display: block;
+    margin-top: 20px;
+}
+.h3{
+    font-size: 1.6rem;
+}
+.btnxl{
+    background: transparent;
+    color: #007bff;
+    border: 0px;
+}
+.btnxl:hover{
+    text-decoration: underline !important;
+}
